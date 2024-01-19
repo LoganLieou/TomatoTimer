@@ -1,0 +1,60 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url("static/tomato.jpg");
+    background-repeat: repeat-x;
+    background-repeat: repeat;
+}
+
+.center {
+    background-color: white;
+    padding-bottom: 5rem;
+    padding-top: 1rem;
+    width: 50rem;
+    border-radius: 1rem;
+    border-style: dashed;
+    border-color: black;
+    text-align: center;
+    margin: auto;
+    margin-top: 13rem;
+}
+
+h1 {
+    font-size: 48pt;
+}
+
+#timer {
+    font-size: 32pt;
+    font-weight: bolder;
+    margin-bottom: 3rem;
+}
+
+button {
+    font-family: inherit;
+    font-weight: bold;
+    padding: 2rem;
+    font-size: 24pt;
+    border-style: dashed;
+    border-radius: 1rem;
+    border-color: black;
+}
+
+#start {
+    background-color: green;
+}
+#start:hover {
+    background-color: darkgreen;
+}
+
+#reset {
+    background-color: red;
+}
+#reset:hover {
+    background-color: darkred;
+}
+
+#pause {
+    background-color: orange;
+}
+#pause:hover {
+    background-color: darkorange;
+}
