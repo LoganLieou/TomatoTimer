@@ -1,5 +1,5 @@
 var audio = new Audio("static/beep.mp3");
-var duration = 60000;
+var duration = 1500000;
 var isPaused = false;
 
 function init() {
